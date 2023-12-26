@@ -4,7 +4,7 @@ console.log('Loaded')
 
 <template>
   <section class="grid" style="min-height: 100dvh">
-    <aside>sidebar</aside>
+    <LayoutSitebar />
     <div>
       <slot />
     </div>
